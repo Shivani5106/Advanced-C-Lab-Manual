@@ -15,16 +15,59 @@ Algorithm:
 4.	Exit the program.
  
 Program:
+```
+#include <stdio.h>
 
-//type your code here
+int main() {
+    int n;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    switch(n) {
+        case 71:
+            printf("seventy one\n");
+            break;
+        case 72:
+            printf("seventy two\n");
+            break;
+        case 73:
+            printf("seventy three\n");
+            break;
+        case 74:
+            printf("seventy four\n");
+            break;
+        case 75:
+            printf("seventy five\n");
+            break;
+        case 76:
+            printf("seventy six\n");
+            break;
+        case 77:
+            printf("seventy seven\n");
+            break;
+        case 78:
+            printf("seventy eight\n");
+            break;
+        case 79:
+            printf("seventy nine\n");
+            break;
+        default:
+            printf("Greater than 13\n");
+            break;
+    }
+
+    return 0;
+}
+```
 
 
 
 
 Output:
 
+![Screenshot 2025-04-26 172300](https://github.com/user-attachments/assets/590905de-d126-4525-bf41-80ca825c5feb)
 
-//paste your output here
 
 
 
@@ -46,8 +89,31 @@ Algorithm:
 6.	End
  
 Program:
+```
+#include <stdio.h>
 
-//type your code here
+int main() {
+    char a[50];
+    int count[4] = {0};
+
+    printf("Enter a string of digits: ");
+    scanf("%s", a);
+
+    for (int i = 0; a[i] != '\0'; i++) {
+        if (a[i] >= '0' && a[i] <= '3') {
+            count[a[i] - '0']++;
+        }
+    }
+
+    for (int i = 0; i <= 3; i++) {
+        printf("%d ", count[i]);
+    }
+
+    printf("\n");
+
+    return 0;
+}
+```
 
 
 
@@ -55,7 +121,8 @@ Program:
 Output:
 
 
-//paste your output here
+![Screenshot 2025-04-26 172620](https://github.com/user-attachments/assets/d1c22253-7492-48dd-8e69-dd168970be47)
+
 
 
 
@@ -84,7 +151,50 @@ Free the memory allocated for each string in s Free the memory allocated for s
  
 Program:
 
-//type your code here
+```
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define MAX 10
+#define LEN 100
+
+void swap(char arr[MAX][LEN], int i, int j) {
+    char temp[LEN];
+    strcpy(temp, arr[i]);
+    strcpy(arr[i], arr[j]);
+    strcpy(arr[j], temp);
+}
+
+int next_permutation(char arr[MAX][LEN], int n) {
+    int i = n - 2;
+    while (i >= 0 && strcmp(arr[i], arr[i + 1]) >= 0) i--;
+    if (i < 0) return 0;
+    int j = n - 1;
+    while (strcmp(arr[i], arr[j]) >= 0) j--;
+    swap(arr, i, j);
+    int left = i + 1, right = n - 1;
+    while (left < right) swap(arr, left++, right--);
+    return 1;
+}
+
+int cmp(const void *a, const void *b) {
+    return strcmp((char *)a, (char *)b);
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    char arr[MAX][LEN];
+    for (int i = 0; i < n; i++) scanf("%s", arr[i]);
+    qsort(arr, n, LEN, cmp);
+    do {
+        for (int i = 0; i < n; i++) printf("%s ", arr[i]);
+        printf("\n");
+    } while (next_permutation(arr, n));
+    return 0;
+}
+```
 
 
 
@@ -92,7 +202,8 @@ Program:
 Output:
 
 
-//paste your output here
+![Screenshot 2025-04-26 172809](https://github.com/user-attachments/assets/dff9c3dc-17f7-4c4a-b9b5-6fe1124e3558)
+
 
 
 
@@ -117,15 +228,38 @@ Algorithm:
  
 Program:
 
-//type your code here
+```
+#include<stdio.h>
+int main()
+{
+    int n,len,min,i,j;
+    scanf("%d",&n);
+    len=2*n-1;
+    for(i=0;i<len;i++)
+    {
+        for(j=0;j<len;j++)
+        {
+            if(i<j)
+            min=i;
+            else
+            min=j;
+            if(min>=len-i-1)
+            min=len-i-1;
+            if(min>=len-j-1)
+            min=len-j-1;
+            printf("%d ",n-min);
+        }
+        printf("\n");
+    }
+}
+```
 
 
 
 
 Output:
 
-
-//paste your output here
+![Screenshot 2025-04-26 173001](https://github.com/user-attachments/assets/130931ee-1294-43c6-862d-6770cad88323)
 
 
 
@@ -156,15 +290,31 @@ o	Call the square() function and display the result.
 
 Program:
 
-//type your code here
+```
+#include <stdio.h>
+
+int square() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    return num * num;
+}
+
+int main() {
+    int result = square();
+    printf("The square of the number is: %d\n", result);
+    return 0;
+}
+```
 
 
 
 
 Output:
 
+![Screenshot 2025-04-26 173137](https://github.com/user-attachments/assets/1efedeed-33fd-40e1-830d-13c1b6630107)
 
-//paste your output here
+
 
 
 
