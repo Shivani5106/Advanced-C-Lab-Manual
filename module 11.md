@@ -44,7 +44,8 @@ int main() {
 
 Output:
 
-![image](https://github.com/user-attachments/assets/9a25fb60-0024-4eb1-b925-a29e6dd678b6)
+![image](https://github.com/user-attachments/assets/62ff1c17-3e22-4773-a6a0-a25a0e57f885)
+
 
 
 Result:
@@ -280,7 +281,9 @@ int main() {
 
 Output:
 
-![image](https://github.com/user-attachments/assets/ff3aa18a-6902-4599-a905-18474a7d2b92)
+
+![image](https://github.com/user-attachments/assets/fe2b9f41-3947-4a14-be18-40a50ad4e1ff)
+
 
 
 
