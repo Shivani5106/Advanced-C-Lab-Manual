@@ -18,43 +18,30 @@ Else
  
 Program:
 ```
-#include <stdio.h>
-
-struct eligible {
-    int age;
-    char n[50];
+#include<stdio.h> 
+struct eligib
+{
+int age; char n[4];
 };
+int main()
+{
+struct eligib e; scanf("%d%s",&e.age,e.n);
+if(e.age<=6)
+{
+printf("Age:%d\nName:%svaccine:%d\neligibility:no",e.age,e.n,e.age);
+} 
+else
+{
+printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
 
-int main() {
-    int i, num;
-    
-    printf("Enter the number of persons: ");
-    scanf("%d", &num);
-
-    struct eligible e[num];
-
-    for (i = 0; i < num; i++) {
-        printf("\nEnter name of person %d: ", i + 1);
-        scanf("%s", e[i].n);
-
-        printf("Enter age of person %d: ", i + 1);
-        scanf("%d", &e[i].age);
-
-        if (e[i].age <= 6)
-            printf("Vaccine Eligibility: No\n");
-        else
-            printf("Vaccine Eligibility: Yes\n");
-
-        printf("Details - Name: %s, Age: %d\n", e[i].n, e[i].age);
-    }
-
-    return 0;
+}
 }
 
 ```
 Output:
 
-![Screenshot 2025-04-26 164654](https://github.com/user-attachments/assets/84bf0f5e-79d5-4775-94c7-59808a8bc933)
+![image](https://github.com/user-attachments/assets/5b918b86-d434-494a-9462-6da8e17f5a4c)
+
 
 Result:
 Thus, the program is verified successfully. 
@@ -103,8 +90,8 @@ int main() {
 
 ```
 Output:
+![image](https://github.com/user-attachments/assets/0d558061-3550-4212-bb6e-d3e7f8d06714)
 
-![Screenshot 2025-04-26 165023](https://github.com/user-attachments/assets/42008343-1f8f-4adf-848b-ddf32f961ba2)
 
 
 Result:
@@ -212,7 +199,8 @@ Output:
 
 
 
-![Screenshot 2025-04-25 141028](https://github.com/user-attachments/assets/b1d0a6ef-fd48-429e-b2b7-21465e73b476)
+![image](https://github.com/user-attachments/assets/947ce179-26d5-4024-98af-332aae0fd4c0)
+
 
 
 
@@ -300,7 +288,8 @@ int main() {
 
 Output:
 
-![Screenshot 2025-04-26 170601](https://github.com/user-attachments/assets/9877755e-16c7-4d9a-8e18-0ba7056202f0)
+![image](https://github.com/user-attachments/assets/ecc5913e-632f-4106-be75-543b338b9ff6)
+
 
 
 Result:
