@@ -61,8 +61,8 @@ int main() {
 }
 ```
 Output:
+![image](https://github.com/user-attachments/assets/d38e9ac1-60d3-4960-8d5e-e7bbdb6736d4)
 
-![image](https://github.com/user-attachments/assets/4a866e92-1c1a-48f7-909d-0163b8499a49)
 
 
 
@@ -161,7 +161,8 @@ int main() {
 
 Output:
 
-![image](https://github.com/user-attachments/assets/2d29acd5-0173-45a3-b44a-94dcacfa7b5d)
+![image](https://github.com/user-attachments/assets/a06e8d89-bc84-4a72-8fc8-38ce7a5a4f22)
+
 
 
 
@@ -250,7 +251,8 @@ int main() {
 
 Output:
 
-![image](https://github.com/user-attachments/assets/596875b2-0df9-4449-941b-1a41dfe9cd40)
+![image](https://github.com/user-attachments/assets/230c99c5-cb11-469b-b4e6-ae5202fb63a2)
+
 
 Result:
 Thus, the program to display queue elements using linked list is verified successfully.
@@ -341,7 +343,8 @@ int main() {
 
 Output:
 
-![image](https://github.com/user-attachments/assets/8d8e3473-ac38-4296-b1a9-3c5a9614cd9e)
+![image](https://github.com/user-attachments/assets/591c6a4d-0d3e-49b2-8b79-f3b90ba7d696)
+
 
 
 Result:
@@ -447,7 +450,7 @@ int main() {
 
 Output:
 
-![image](https://github.com/user-attachments/assets/7361e225-e47b-4315-931e-e439b220b792)
+![image](https://github.com/user-attachments/assets/ebb10135-00c2-415b-aa87-0c0a21fee9ad)
 
 
 
