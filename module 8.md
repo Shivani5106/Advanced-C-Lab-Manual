@@ -69,7 +69,9 @@ int main() {
 
 Output:
 
-![Screenshot 2025-04-26 172300](https://github.com/user-attachments/assets/590905de-d126-4525-bf41-80ca825c5feb)
+
+![image](https://github.com/user-attachments/assets/11881342-55b7-4f20-99b5-1ee456bd8f78)
+
 
 
 
@@ -124,7 +126,8 @@ int main() {
 Output:
 
 
-![Screenshot 2025-04-26 172620](https://github.com/user-attachments/assets/d1c22253-7492-48dd-8e69-dd168970be47)
+
+![image](https://github.com/user-attachments/assets/facc5114-400c-451e-ac8f-c56868df2f41)
 
 
 
