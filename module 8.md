@@ -318,7 +318,8 @@ int main() {
 
 Output:
 
-![Screenshot 2025-04-26 173137](https://github.com/user-attachments/assets/1efedeed-33fd-40e1-830d-13c1b6630107)
+![image](https://github.com/user-attachments/assets/b8dbd139-bb6f-49e2-91d5-eab1f2637ca5)
+
 
 
 
